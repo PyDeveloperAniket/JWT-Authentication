@@ -24,15 +24,15 @@ Before you can run this project, make sure you have the following installed:
 ### Endpoints
 **GET /**
     
-    A simple endpoint to check if the API is running.
+- A simple endpoint to check if the API is running.
 
 **POST /login**
     
-    This endpoint allows a user to log in and receive a JWT token in response.
+- This endpoint allows a user to log in and receive a JWT token in response.
 
 **POST /profile**
 
-    This protected endpoint requires a valid JWT token in the Authorization header. If a valid token is provided, it grants access to the user's profile information.
+- This protected endpoint requires a valid JWT token in the Authorization header. If a valid token is provided, it grants access to the user's profile information.
 
 ## Setup
 
