@@ -2,6 +2,8 @@
 
 This is a simple Node.js API project demonstrating JWT (JSON Web Token) authentication. JWT authentication is commonly used for securing web applications by providing a token-based authentication mechanism. This README provides an overview of the code and its usage.
 
+for more: https://jwt.io/introduction
+
 ## Prerequisites
 
 Before you can run this project, make sure you have the following installed:
