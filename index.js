@@ -14,8 +14,8 @@ app.get('/', (req, res) =>{
 app.post('/login', (req, res) =>{
     const user = {
         id:1,
-        uername:"Aniket",
-        email:"aniket@gmail.com"
+        uername:"User_Name",
+        email:"sample@gmail.com"
     }
 
     jwt.sign({user},process.env.SECRETKEY,{expiresIn:'300S'},(err,token)=>{
